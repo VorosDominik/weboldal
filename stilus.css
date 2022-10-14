@@ -1,0 +1,55 @@
+body{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    
+}
+#menu ul{
+ display: grid;
+ grid-template-columns:  repeat(6,1fr);
+
+ 
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+#elsolap{
+    width: 80%;
+ margin: auto ;
+ padding: auto;
+ display: grid;
+
+ grid-template-columns:  1fr 1fr 1fr;
+    grid-row: 1fr;
+ 
+}
+
+#elsolap img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+.oszlop2{
+   
+    width: 80%;
+    margin:50px  auto    auto auto;
+    padding: 50px auto    auto auto;
+   
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    
+}
+.oszlop{
+    
+    width: 80%;
+    margin: 50px auto     auto auto;
+    padding: 50px auto   auto auto;
+    
+}
