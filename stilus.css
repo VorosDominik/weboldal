@@ -1,14 +1,26 @@
 body{
-    background-color: gray;
+    background-color: rgb(0, 0, 0);
     margin: 0;
     padding: 0;
+    color: white;
     
 }
+.kozep{
+    text-align: center;
+   
+   }
 #menu ul{
  display: grid;
- grid-template-columns:  repeat(6,1fr);
+ grid-template-columns:  150px 150px 150px 150px 150px 150px ;
+
 
  
+}
+#menu li{
+    list-style: none;
+   
+  
+    
 }
 
 h1{
@@ -39,9 +51,9 @@ h2{
 .oszlop2{
    
     width: 80%;
-    margin:50px  auto    auto auto;
+    margin-top: 50px;
     padding: 50px auto    auto auto;
-   
+
     border-left: 2px solid red;
     border-right: 2px solid red;
     
@@ -52,4 +64,46 @@ h2{
     margin: 50px auto     auto auto;
     padding: 50px auto   auto auto;
     
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+a:visited{
+    color: white;
+    
+
+}
+
+a:hover{
+    color: white;
+
+
+}
+
+a:active{
+    color: white;
+
+
+}
+#masodik img{
+    float: right;
+    margin-right: 60px;
+
+}
+#cimp{
+    font-size: 50px;
+    border-bottom: 2px solid red;
+    margin-right: 600px;
+    
+}
+#masodik p{
+   
+    margin: 30px;
+    margin-right: 600px;
 }
